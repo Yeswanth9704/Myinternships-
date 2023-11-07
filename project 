@@ -1,0 +1,72 @@
+#begin the game
+print('welcome to the new world')
+name = input('enter yout name: ')
+print("Greetings " + name )
+print("shall we start the game")
+#backbrop story
+print("in the kingdom of sadhweepa there is a demon king ruling the country" + " no one know how to kill him except a saige's child " + name +" there is a prophecy that the child defeat the demon king a the age of 20")
+age = int(input("enter your age: ")) #converting the age(srting input) into integer
+enlighten_age = age- 20
+if enlighten_age <0:
+   def begining_point():
+      print("lets begin the training")
+   print("we need to be strong within the "+ str(abs(enlighten_age))+ " years, as per the prophecy it was the age you need to defeat the demon king")
+   print("a = yes & b = no")
+   print("shall we begin the training")
+   choice =input("what's your answer: ")
+   if choice == 'a':
+    print("amazing! your training is succesfully completed")
+   elif choice == 'b':
+    print("man! you need to strenghten your will, any way its upto your choice")
+    begining_point()
+   else:
+    print("invalid choice")
+    begining_point()
+elif enlighten_age == 0:
+   print("ahh! what a coincidence lets begin the journey")
+   print("alright, let's behead the demon king")
+elif enlighten_age >0:
+   print("man!! it's already too late... lets complete it as soon as possible")
+   print("any way we have to end this")
+#entering into the village named vikrutha
+def starting_point():
+   print("now we are about to entering the village named vikrutha as it was darkest village with evil things running wild within it")
+   print("are you ready to enter the village")
+   print("c = yes & d = no")
+choice =input("enter your choice, c or d:")
+if choice == 'c':
+   print("you seems to be a brave person, lets examine the village,oh god! whats that huge thing moving around there, these darkness makes me difficult tu see the things,ahhh! he seems to be the main subordinate of the demon king, we need to defeat him to reach the demon king")
+elif choice == 'd':
+   print("oh god! dont be a coward we need to finish him")
+   starting_point()
+else:
+   print("invalid option selected")
+   begining_point()
+#encountered with the subordinate of the demon king
+print("ahh!.. he may be the main subordinate of the demon king.....he seems to be a tought apponent....lets try our level best to defeat him or else the entire humanity will eradigate")
+print("e = fight & f = ignore")
+action =input("enter your choice , e or f:")
+if action == 'e':
+   print("man..that was an amazing fight... we defeated him")
+elif action == 'f':
+   print("he noticed and beheaded you.... game over")
+   starting_point()
+else:
+   print("invalid option")
+   begining_point()
+#now we are encountered with the main villian
+print("it seems like me makes the demon king to make a move, thats why he came directly here by himself...we need to defeat him...what is it... there is a scroll here... what??? his soul was kept inside me")
+print("so if i cut my hand i will definetly defeat him")
+action_2=input("whats your choice? could you cut your hand???, yes or no:")
+if action_2 == 'yes':
+   print("we defeated him")
+elif action_2 == 'no':
+   print("we were defeated")
+   starting_point()
+else:
+   print("invalid option")
+   begining_point()
+#end title
+print("THOSE WHO CANT ABANDON ANYTHING... CANT CHANGE ANYTHING")
+print("THE END")
+   
